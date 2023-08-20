@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(240, 241, 253);
+
+}
+
+
+.quiz-window {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-title {
+    font-size: 28px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.question-ansvers-list {
+    margin-top: 50px;
+    font-size: 20px;
+
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.submit-button {
+    cursor: pointer;
+    background-color: rgb(89, 89, 238);
+    color: white;
+      height: 82px;
+    margin-top: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 6px;
+    transition: all, 300ms;
+}
+
+.submit-button:hover {
+    background-color: rgb(72, 72, 184);
+}
+
+.check-box {
+    width: 14px;
+    height: 14px;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/**
+  |============================
+  | RESULT WINDOW
+  |============================
+*/
+
+.result-title {
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result-text {
+    letter-spacing: 1.17;
+    margin-top: 20px;
+    margin-left: 260px;
+    font-size: 20px;
+    padding-bottom: 74px;
+}
